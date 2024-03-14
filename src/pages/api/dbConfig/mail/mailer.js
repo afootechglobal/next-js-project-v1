@@ -13,12 +13,12 @@ export async function sendResetPasswordLink(email, fullname, hash_id) {
   });
 
   const transporter = nodemailer.createTransport({
-    host: 'mail.agrohandlers.com',
-    port: 465,
+    host: '',
+    port: '',
     secure: true, // use SSL
     auth: {
-      user: 'help@agrohandlers.com',
-      pass: '1971@@@ademorinola12',
+      user: '',
+      pass: '',
     },
   });
 
